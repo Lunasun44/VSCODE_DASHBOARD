@@ -1,10 +1,36 @@
 .btn-outline-success {
-  color: chocolate;
-  border-color: chocolate;
+  color: green;
+  border-color: green;
 }
 
 .btn-outline-success:hover {
-  background-color: chocolate;
+  background-color: green;
   color: white;
-  border-color: chocolate;
+  border-color: green;
+}
+
+.nav-color {
+  color: green;
+}
+
+.nav-color:hover {
+  color: green;
+  font-weight: bold;
+}
+
+.first_box {
+  width: 80%;
+  border: solid 2px red;
+  display: flex;
+  justify-content: space-between;
+}
+
+.layout-box1 {
+  width: 200px;
+  height: 200px;
+  background-color: lightgrey;
+  /* margin-right: 15px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
